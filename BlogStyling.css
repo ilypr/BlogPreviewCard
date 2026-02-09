@@ -8,7 +8,7 @@
 @font-face {
     font-family: "local-font";
     src: url("/BlogPreviewCard/assets/fonts/Figtree-VariableFont_wght.ttf");
-    font-weight: 500, 800;
+    font-weight: 500 800;
     font-style: normal;
 }
 
@@ -30,16 +30,14 @@ body {
     border-radius: 18px;
     border: 1px solid black;
     padding: 20px;
-    width: 90%;
+    width: 85%;
     max-width: 350px;
     box-shadow: 8px 8px;
-    margin: 1.4rem;
 }
 
 /* container for the image preview */
 .image-container {
     text-align: center;
-    margin: 0;
 }
 
 .image-container-styling img {
@@ -63,31 +61,39 @@ body {
 h1 {
     font-weight: 800;
     font-size: 1.4rem;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
+h1:hover {
+    color:hsl(47, 88%, 63%);
+}
+
 .release-date {
-    font-weight: 800;
-    opacity: 0.9;
-    font-size: 12px;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
     margin-top: 15px;
 }
 
 .description {
-    opacity: 0.6;
+    color: hsl(0, 0%, 42%);
     font-weight: 500;
 }
 
 /* The name of the author position */
-.name-bottom-container {
-    margin-top: 30px;
+.Avatar-bottom-container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
     font-weight: 800;
 }
 
-.name-bottom-container img {
-    max-width: 10%;
+.Avatar-bottom-container img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
 }
 
@@ -95,7 +101,6 @@ h1 {
 .attribution {
     font-size: 14px;
     font-weight: 800;
-    opacity: 0.8;
     text-align: center;
 }
 .attribution a {
@@ -109,9 +114,5 @@ a:link {
 a:hover {
     color: hsl(0, 0%, 100%);
     text-decoration: underline;
-}
-
-main {
-    flex-grow: 1;
 }
     
