@@ -18,20 +18,40 @@ body {
 }
 
 /* Main container position and styling */
-.main-container {
+.main-container-position {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+    height: 100vh;
+}
+
+.main-container-style {
     background-color: white;
-    width: fit-content;
-    flex-direction: column;
-    margin: 0;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 350px;
 }
 
 /* container for the image preview */
 .image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     margin: 0;
 }
+
+.image-container-styling {
+    width: 25px;
+    border-radius: 10px;
+}
+
+.language-container {
+    background-color:hsl(47, 88%, 63%);;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* Text in the main container */
 .main-content-text {
     font-family: "local-font";
     font-size: 16px;
@@ -43,7 +63,7 @@ body {
     font-family: "local-font";
 }
 
-/*license block */
+/* icense block and position of it */
 .attribution {
     font-family: "local-font";
     font-size: 14px;
