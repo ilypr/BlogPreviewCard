@@ -7,9 +7,8 @@
 /* font-style from the assets folder */
 @font-face {
     font-family: "local-font";
-    src: url("/BlogPreviewCard/assets/fonts/Figtree-VariableFont_wght.ttf"),
-         url("/BlogPreviewCard/assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
-    font-weight: normal;
+    src: url("/BlogPreviewCard/assets/fonts/Figtree-VariableFont_wght.ttf");
+    font-weight: 500, 800;
     font-style: normal;
 }
 
@@ -31,8 +30,10 @@ body {
     border-radius: 18px;
     border: 1px solid black;
     padding: 20px;
-    width: 350px;
-    box-shadow: 7px 5px;
+    width: 90%;
+    max-width: 350px;
+    box-shadow: 8px 8px;
+    margin: 1.4rem;
 }
 
 /* container for the image preview */
@@ -51,11 +52,11 @@ body {
     background-color:hsl(47, 88%, 63%);;
     width: fit-content;
     border-radius: 5px;
-    padding: 6px 15px 6px 15px;
+    padding: 6px 12px 6px 12px;
     font-weight: 800;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Text in the main container */
@@ -82,17 +83,19 @@ h1 {
 .name-bottom-container {
     margin-top: 30px;
     display: flex;
-    text-align: center;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .name-bottom-container img {
     max-width: 10%;
+    margin-right: 10px;
 }
 
 /* icense block and position of it */
 .attribution {
     font-size: 14px;
+    font-weight: 800;
+    opacity: 0.8;
     text-align: center;
 }
 .attribution a {
