@@ -65,10 +65,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-h1:hover {
-    color:hsl(47, 88%, 63%);
-}
-
 .release-date {
     font-weight: 600;
     color: hsl(0, 0%, 7%);
@@ -81,7 +77,21 @@ h1:hover {
     font-weight: 500;
 }
 
-/* The name of the author position */
+/* links inside of the container */
+a.heading-link, a.author-link {
+    color:hsl(0, 0%, 7%);
+}
+
+a.heading-link:hover, a.author-link:hover {
+    color:hsl(47, 88%, 63%);
+    text-decoration: none;
+}
+
+a.heading-link:focus-visible, a.author-link:focus-visible {
+    outline :2px solid hsl(47, 88%, 63%);
+}
+
+/* The name of the author position*/
 .Avatar-bottom-container {
     display: flex;
     flex-direction: row;
