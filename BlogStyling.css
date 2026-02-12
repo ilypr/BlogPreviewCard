@@ -7,7 +7,7 @@
 /* font-style from the assets folder */
 @font-face {
     font-family: "local-font";
-    src: url("/BlogPreviewCard/assets/fonts/Figtree-VariableFont_wght.ttf");
+    src: url("BlogPreviewCard/assets/fonts/Figtree-VariableFont_wght.ttf");
     font-weight: 500 800;
     font-style: normal;
 }
