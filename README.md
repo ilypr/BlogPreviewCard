@@ -20,6 +20,11 @@ The main idea of the challenge was to build a blog-card webpage that would scale
 ### Screenshots
 
 Both PC and mobile versions of the webpage
+<p style="text-align:center;">Pc and mobile versions of the webpage</p>
+<div style="text-align:center;">
+  <img src="WebPagePreview/pc.png" width="600" alt="QR code PC">
+  <img src="WebPagePreview/Phone.png" width="250" alt="QR code Mobile">
+</div>
 
 ### Links
 
