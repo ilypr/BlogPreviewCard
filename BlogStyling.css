@@ -12,6 +12,10 @@
     font-style: normal;
 }
 
+/* font-size for mobile layout */
+
+
+/* main background color */
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: 'local-font';
@@ -42,7 +46,7 @@ p {
     box-shadow: 8px 8px;
 }
 
-/* container for the image preview */
+/* container for the svg image */
 .image-container {
     text-align: center;
 }
@@ -57,8 +61,9 @@ p {
     background-color:hsl(47, 88%, 63%);;
     width: fit-content;
     border-radius: 5px;
-    padding: 6px 12px 6px 12px;
+    padding: 5px 14px 5px 14px;
     margin-top: 15px;
+    font-size: 15px;
 }
 
 h2 {
@@ -66,24 +71,26 @@ h2 {
     font-size: 0.9rem;
 }
 
-/* Text in the main container */
+/* Name of the course */
 h1 {
     font-weight: 800;
     font-size: 1.4rem;
 }
 
+/* course's release date and description*/
 .release-date {
     font-weight: 600;
     color: hsl(0, 0%, 7%);
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .description {
     color: hsl(0, 0%, 42%);
     font-weight: 500;
+    font-size: 0.9rem;
 }
 
-/* links inside of the container */
+/* interactions for the links inside of the container */
 a.heading-link, a.author-link {
     color:hsl(0, 0%, 7%);
 }
@@ -113,7 +120,7 @@ a.heading-link:focus-visible, a.author-link:focus-visible {
     margin-right: 10px;
 }
 
-/* icense block and position of it */
+/* icense position and styling */
 .attribution {
     font-size: 14px;
     font-weight: 800;
