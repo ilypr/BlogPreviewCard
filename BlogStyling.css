@@ -125,6 +125,7 @@ a.heading-link:focus-visible, a.author-link:focus-visible {
     font-size: 14px;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 2em;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
